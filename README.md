@@ -11,10 +11,10 @@ Painel interativo (*busy board*) construído com Arduino para meu sobrinho Arthu
 | Componente | Descrição |
 |---|---|
 | **LED Chaser** | 24 LEDs controlados por registradores de deslocamento 74HC595, com 13 padrões de animação sorteados aleatoriamente |
-| **Botões Musicais** | Botões que acionam sequências de notas musicais via shift register |
+| **Botões Musicais** | Botões que acionam sequências de notas musicais |
 | **Controle de Hélice** | Ventilador com velocidade ajustada por potenciômetro e lógica de partida suave (*tranco*) |
-| **Campainha** | Buzzer com padrão sonoro próprio |
-| **Display OLED** | Tela SSD1306 128×64 que exibe animações de sprite (48×48 px) e o nome "Painel de Tutu" |
+| **Campainha** | Campainha acionada com sinal 12V alternado, criado com ponte H a partir de 12V CC. |
+| **Display OLED** | Tela SSD1306 128×64 que exibe animações de sprite e o nome "Painel de Tutu" |
 | **Chave Seletora** | Chave que troca o padrão do LED chaser e a animação do display |
 
 ---
